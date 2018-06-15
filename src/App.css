@@ -34,6 +34,10 @@ table th:first-child {
   text-align: left;
   width: 7%;
 }
+table td:last-child,
+table th:last-child {
+  text-align: right;
+}
 table td:nth-child(3),
 table th:nth-child(3) {
   width: 20%;
