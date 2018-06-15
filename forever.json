@@ -1,0 +1,18 @@
+[
+    {
+        // Node Server
+        "uid": "proxy",
+        "append": true,
+        "watch": true,
+        "script": "proxy.js",
+        "sourceDir": "./"
+    },
+    {
+        // Client
+        "uid": "localizer",
+        "append": true,
+        "watch": true,
+        "script": "client.js",
+        "sourceDir": "./"
+    }
+]
